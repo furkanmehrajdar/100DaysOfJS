@@ -1,11 +1,26 @@
 .container {
     text-align: center;
     height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
     padding: 2rem 0 2rem 0;
     margin: 7rem 0 0 20rem;
     border-radius: 50px;
-    background: linear-gradient(145deg, #ffffff, #e6e6e6);
-    box-shadow:  20px 20px 60px #d9d9d9, 
-                -20px -20px 60px #ffffff;
+    background: linear-gradient(145deg, #ffffff, #c7bebe);
+    box-shadow:  20px 20px 60px #f0dede, 
+                -20px -20px 60px #969191;
 }
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+#calculate-btn {
+    color: white;
+    background-color: olive;
+    padding: 13px 18px 13px 18px;
+    border: none;
+}
+
+
