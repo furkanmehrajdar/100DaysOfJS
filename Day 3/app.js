@@ -14,7 +14,7 @@ button.onclick = function generatePassword() {
     password += characters.substring(generatePwd, generatePwd + 1);
   }
   document.getElementById("password").value = password;
-  show.innerHTML = "Your new Password is: <br>" + password;
+  show.innerHTML = "Your new Password is: <br>" + password; 
 };
 
 // creating a function for showing that the generated password is copied
